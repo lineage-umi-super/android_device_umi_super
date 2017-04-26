@@ -7,6 +7,6 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/slp_conf:system/etc/slp_conf \
-	$(LOCAL_PATH)/configs/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
+	$(LOCAL_PATH)/configs/gps/slp_conf:system/etc/slp_conf \
+	$(LOCAL_PATH)/configs/gps/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
 	frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
