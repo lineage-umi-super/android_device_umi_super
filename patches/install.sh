@@ -2,14 +2,14 @@ echo $1
 rootdirectory="$PWD"
 # ---------------------------------
 
-dirs="frameworks/base system/netd packages/apps/Settings"
+dirs="frameworks/base system/netd"
 
 for dir in $dirs ; do
 	cd $rootdirectory
 	cd $dir
 	echo "Applying $dir patches..."
-	#git am $rootdirectory/device/umi/SUPER/patches/$dir/*.patch
-	git apply $rootdirectory/device/umi/SUPER/patches/$dir/*.patch
+	#git am $rootdirectory/device/umi/super/patches/$dir/*.patch
+	git apply $rootdirectory/device/umi/super/patches/$dir/*.patch
 	echo " "
 done
 

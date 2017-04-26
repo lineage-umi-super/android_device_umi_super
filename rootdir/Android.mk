@@ -1,5 +1,4 @@
 LOCAL_PATH:= $(call my-dir)
-ifneq ($(filter SUPER,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 
 # Device init files
@@ -123,5 +122,3 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := etc/ueventd.mt6755.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
-
-endif

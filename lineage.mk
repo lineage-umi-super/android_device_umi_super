@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +19,7 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_SUPER.mk)
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1920
@@ -26,8 +27,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier
 PRODUCT_BRAND := UMI
-PRODUCT_DEVICE := SUPER
+PRODUCT_DEVICE := super
 PRODUCT_MANUFACTURER := UMI
-PRODUCT_MODEL := SUPER
-PRODUCT_NAME := lineage_SUPER
-PRODUCT_RELEASE_NAME := SUPER
+PRODUCT_MODEL := super
+PRODUCT_NAME := lineage_super
+PRODUCT_RELEASE_NAME := super
