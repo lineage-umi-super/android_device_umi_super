@@ -212,4 +212,7 @@
 
     <!-- Mediatek radios are why this option exists... :/ -->
     <bool name="config_user_notification_of_restrictied_mobile_access">false</bool>
+
+    <!-- Disable button backlight settings -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
