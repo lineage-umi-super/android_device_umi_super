@@ -1,6 +1,6 @@
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+#    Snap \
     mtkcamera_parameters
 
 # Camera properties
