@@ -53,7 +53,8 @@ char const*const LCD_FILE
         = "/sys/class/leds/lcd-backlight/brightness";
 
 char const*const BUTTON_FILE
-        = "/sys/class/leds/button-backlight/brightness";
+        = "/sys/class/leds/blue/brightness"; // Blue is what stock uses for a home button
+//        = "/sys/class/leds/button-backlight/brightness"; This path is valid but does nothing
 
 /*
  * device methods
