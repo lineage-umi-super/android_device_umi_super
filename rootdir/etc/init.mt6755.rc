@@ -10,7 +10,6 @@ import init.epdg.rc
 import init.wfca.rc
 import init.trustonic.rc
 import init.zygote_on_demand.rc
-import init.common_svc.rc
 import init.microtrust.rc
 import init.chiptest.rc
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
