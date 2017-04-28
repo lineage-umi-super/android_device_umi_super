@@ -71,6 +71,7 @@ lib{,64}/libgsensorcali_jni.so
 
 # GPS
 bin/mtk_agpsd
+bin/slpd
 bin/wifi2agps
 lib/libmnl.so
 lib{,64}/hw/gps.mt6755.so
@@ -83,6 +84,7 @@ bin/batterywarning
 bin/fuelgauged
 bin/kpoc_charger
 bin/spm_loader
+bin/thermal_manager
 lib{,64}/libperfservicenative.so
 lib/libmtcloader.so
 lib/libfgauge.so
