@@ -1,6 +1,5 @@
 # Ramdisk
 PRODUCT_PACKAGES += \
-    enableswap.sh \
     factory_init.project.rc \
     factory_init.rc \
     fstab.mt6755 \
