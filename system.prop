@@ -25,6 +25,11 @@ wifi.direct.interface=p2p0
 ro.opengles.version=196608
 ro.sf.lcd_density=480
 
+# Legacy stagefright media
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
+
 # FRP
 ro.frp.pst=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp
 

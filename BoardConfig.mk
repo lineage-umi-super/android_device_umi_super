@@ -53,7 +53,7 @@ ARCH_ARM_HAVE_VFP := true
 
 # Kernel
 TARGET_KMODULES := true
-COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
@@ -64,7 +64,7 @@ USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # Flags
-COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
+BOARD_NO_SECURE_DISCARD := true
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
