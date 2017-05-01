@@ -16,6 +16,7 @@
 # limitations under the License.
 #
 DEVICE=super
+VENDOR=umi
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
