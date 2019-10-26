@@ -1,6 +1,6 @@
 # About Device
 
-![UMi Super](http://www.umidigi.com/new/Images/super/so_back.png "UMi Super in grey")
+![UMi Super](https://i1.wp.com/www.pdevice.com/wp-content/uploads/2016/07/UMI-Super-Edge-446x434.jpg "UMi Super in grey")
 
 The UMi Super (codenamed _"SUPER"_) is a flagship smartphone from UMi. The SUPER now supports CyanogenMod 13.0!
 
